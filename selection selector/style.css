@@ -1,0 +1,15 @@
+/*
+    We could use only few CSS property witn ::selection selector: 
+        1. color
+        2. backgorund
+        3. cursor 
+        4. Outine
+*/
+
+::selection{
+    background: #D6ED17FF;
+    color: #606060FF;
+}
+.second-h2::selection {
+    background: #fee715ff;
+}

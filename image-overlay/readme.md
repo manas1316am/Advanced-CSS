@@ -1,0 +1,1 @@
+![alt text](https://img.techpowerup.org/201026/screenshot-from-2020-10-27-00-49-20.png)

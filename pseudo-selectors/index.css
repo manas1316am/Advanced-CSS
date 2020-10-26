@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    background: #38ada9;
+    color: #fff;
+    font-size: 40px;
+}
+.main_header * {
+    padding-top: 5px;
+}
+
+
+li:nth-child(2n){
+    color: red;
+}
+li:nth-child(2n+1) {
+    color: yellow;
+}
+li:first-child {
+    color:  #4a69bd;
+}
+li:last-child {
+    color: wheat;
+}
+/* li:nth-child(4){
+    color: aqua;
+} */
+li:not(:nth-child(4)){
+    color: aqua;
+}
